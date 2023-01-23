@@ -2,15 +2,15 @@
   "name": "@yieldstudio/eslint-config",
   "version": "1.0.0",
   "description": "Yield Studio Javascript shared configs",
-  "homepage": "https://github.com/YieldStudio/js-config",
+  "homepage": "https://github.com/YieldStudio/eslint-config",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YieldStudio/js-config"
+    "url": "https://github.com/YieldStudio/eslint-config"
   },
   "bugs": {
-    "url": "https://github.com/YieldStudio/js-config/issues"
+    "url": "https://github.com/YieldStudio/eslint-config/issues"
   },
   "keywords": [
     "prettier",

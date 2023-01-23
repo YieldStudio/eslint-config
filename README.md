@@ -1,9 +1,9 @@
-# @yieldstudio/js-config
+# @yieldstudio/eslint-config
 
 Our base [eslint](https://eslint.org/) and [prettier](https://prettier.io/) configurations.
 
-[![Latest Version](https://img.shields.io/github/release/yieldstudio/js-config?style=flat-square)](https://github.com/yieldstudio/js-config/releases)
-[![Total Downloads](https://img.shields.io/npm/dt/@yieldstudio/js-config?style=flat-square)](https://www.npmjs.com/package/@yieldstudio/js-config)
+[![Latest Version](https://img.shields.io/github/release/yieldstudio/eslint-config?style=flat-square)](https://github.com/yieldstudio/eslint-config/releases)
+[![Total Downloads](https://img.shields.io/npm/dt/@yieldstudio/eslint-config?style=flat-square)](https://www.npmjs.com/package/@yieldstudio/eslint-config)
 
 We use both to lint our code:
 
@@ -15,7 +15,7 @@ Our eslint config is mainly based on [Airbnb's eslint config](https://github.com
 ## Installation
 
 ```sh
-yarn add --dev @yieldstudio/js-config eslint prettier
+yarn add --dev @yieldstudio/eslint-config eslint prettier
 ```
 
 Extend the shared eslint config in your `.eslintrc.js`:
