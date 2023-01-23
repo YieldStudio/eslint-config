@@ -1,0 +1,60 @@
+{
+  "name": "@yieldstudio/eslint-config",
+  "version": "1.0.0",
+  "description": "Yield Studio Javascript shared configs",
+  "homepage": "https://github.com/YieldStudio/js-config",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YieldStudio/js-config"
+  },
+  "bugs": {
+    "url": "https://github.com/YieldStudio/js-config/issues"
+  },
+  "keywords": [
+    "prettier",
+    "tsconfig",
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript"
+  ],
+  "files": [
+    "tsconfig/*",
+    "index.js",
+    "shared.js",
+    "react.js",
+    "next.js",
+    "prettier.config.js"
+  ],
+  "contributors": [
+    {
+      "name": "James Hemery",
+      "email": "james@yieldstudio.fr"
+    }
+  ],
+  "scripts": {
+    "lint": "eslint *.js",
+    "lint:fix": "eslint *.js --fix"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-next": "^13.1.2",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "peerDependencies": {
+    "eslint": "8.32.0",
+    "prettier": "^2.8.3",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3"
+  }
+}
