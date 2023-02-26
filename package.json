@@ -1,6 +1,6 @@
 {
   "name": "@yieldstudio/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Yield Studio Javascript shared configs",
   "homepage": "https://github.com/YieldStudio/eslint-config",
   "license": "MIT",
