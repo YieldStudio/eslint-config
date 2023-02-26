@@ -5,6 +5,8 @@ module.exports = {
     'max-len': 'off',
     curly: ['error', 'all'],
 
+    'import/prefer-default-export': 'off',
+
     'padding-line-between-statements': [
       'error',
       { blankLine: 'always', prev: '*', next: ['return', 'continue', 'default', 'throw'] },
