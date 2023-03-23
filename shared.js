@@ -9,7 +9,7 @@ module.exports = {
 
     'padding-line-between-statements': [
       'error',
-      { blankLine: 'always', prev: '*', next: ['return', 'continue', 'default', 'throw'] },
+      { blankLine: 'always', prev: '*', next: ['return', 'continue', 'throw'] },
       {
         blankLine: 'always',
         prev: ['multiline-block-like', 'multiline-const', 'multiline-let', 'multiline-var', 'multiline-expression'],
