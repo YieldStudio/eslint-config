@@ -1,6 +1,6 @@
 {
   "name": "@yieldstudio/eslint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Yield Studio Javascript shared configs",
   "homepage": "https://github.com/YieldStudio/eslint-config",
   "license": "MIT",
@@ -25,6 +25,7 @@
     "index.js",
     "shared.js",
     "react.js",
+    "react-native.js",
     "next.js",
     "prettier.config.js"
   ],
@@ -46,7 +47,11 @@
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-next": "^13.1.2",
     "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1"
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-native": "^4.0.0",
+    "eslint-plugin-unicorn": "^46.0.0"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
