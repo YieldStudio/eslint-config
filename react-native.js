@@ -13,6 +13,7 @@ module.exports = {
       'error',
       {
         case: 'kebabCase',
+        ignore: [/^\[([A-Za-z]+)]\.(js|ts|tsx|jsx)$/],
       },
     ],
     'react/react-in-jsx-scope': 'off',
