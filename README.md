@@ -31,11 +31,12 @@ module.exports = {
 
 **Available eslint configs:**
 
-| Config                           | For what ?         |
-|----------------------------------|--------------------|
-| @yieldstudio/eslint-config       | Javascript project |
-| @yieldstudio/eslint-config/react | React project      |
-| @yieldstudio/eslint-config/next  | Next.js project    |
+| Config                                  | For what ?           |
+|----------------------------------------|----------------------|
+| @yieldstudio/eslint-config              | Javascript project   |
+| @yieldstudio/eslint-config/react        | React project        |
+| @yieldstudio/eslint-config/react-native | React Native project |
+| @yieldstudio/eslint-config/next         | Next.js project      |
 
 
 Extend the shared prettier config in your `.prettierrc.js`:
