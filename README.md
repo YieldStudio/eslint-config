@@ -24,7 +24,7 @@ Extend the shared eslint config in your `.eslintrc.js`:
 // .eslintrc.js
 
 module.exports = {
-  extends: '@yieldstudio/eslint-config', 
+  extends: '@yieldstudio/eslint-config',
   // Your project-specific config
 };
 ```
@@ -49,6 +49,7 @@ module.exports = require("@yieldstudio/eslint-config/prettier.config");
 ## Credits
 
 - [James Hemery](https://github.com/jameshemery)
+- [Julien Sanchez-Porro](https://github.com/jsanchez-qyo)
 
 ## License
 
