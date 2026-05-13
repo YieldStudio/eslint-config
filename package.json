@@ -1,6 +1,6 @@
 {
   "name": "@yieldstudio/eslint-config",
-  "version": "2.0.0-pre.1",
+  "version": "3.0.0",
   "description": "Yield Studio Javascript shared configs",
   "homepage": "https://github.com/YieldStudio/eslint-config",
   "license": "MIT",
@@ -40,27 +40,26 @@
     "lint:fix": "eslint *.js --fix"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.48.2",
-    "@typescript-eslint/parser": "^5.48.2",
+    "@eslint/eslintrc": "^3.3.5",
+    "@typescript-eslint/eslint-plugin": "^8.59.3",
+    "@typescript-eslint/parser": "^8.59.3",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-next": "^13.1.2",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-native": "^4.0.0",
-    "eslint-plugin-unicorn": "^46.0.0",
-    "@react-native-community/eslint-config": "^3.2.0"
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-config-next": "^16.2.6",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-unicorn": "^56.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0",
-    "prettier": "^2.8.0",
-    "typescript": "^4.9.4"
+    "eslint": "^9.39.4",
+    "prettier": "^3.8.3",
+    "typescript": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.0.0",
-    "prettier": "^2.8.0"
+    "eslint": "^9.39.4",
+    "prettier": "^3.8.3"
   }
 }
